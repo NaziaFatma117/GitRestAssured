@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stepdefinition.StepRestAssured">
+      <class name="stepdefinition.AssertionsRestAssured">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- stepdefinition.StepRestAssured -->
+      </class> <!-- stepdefinition.AssertionsRestAssured -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

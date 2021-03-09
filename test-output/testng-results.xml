@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-09T19:18:56 IST" name="Default suite" finished-at="2021-03-09T19:19:03 IST" duration-ms="6525">
+  <suite started-at="2021-03-09T21:50:14 IST" name="Default suite" finished-at="2021-03-09T21:50:20 IST" duration-ms="5799">
     <groups>
     </groups>
-    <test started-at="2021-03-09T19:18:56 IST" name="Default test" finished-at="2021-03-09T19:19:03 IST" duration-ms="6525">
-      <class name="stepdefinition.StepRestAssured">
-        <test-method signature="f()[pri:0, instance:stepdefinition.StepRestAssured@62e7f11d]" started-at="2021-03-09T19:18:56 IST" name="f" finished-at="2021-03-09T19:19:03 IST" duration-ms="6399" status="PASS">
+    <test started-at="2021-03-09T21:50:14 IST" name="Default test" finished-at="2021-03-09T21:50:20 IST" duration-ms="5799">
+      <class name="stepdefinition.AssertionsRestAssured">
+        <test-method signature="f()[pri:0, instance:stepdefinition.AssertionsRestAssured@62e7f11d]" started-at="2021-03-09T21:50:14 IST" name="f" finished-at="2021-03-09T21:50:20 IST" duration-ms="5676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- stepdefinition.StepRestAssured -->
+      </class> <!-- stepdefinition.AssertionsRestAssured -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
