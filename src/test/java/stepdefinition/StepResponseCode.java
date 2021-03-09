@@ -1,7 +1,12 @@
 package stepdefinition;
 
+import java.util.logging.LogManager;
+
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.sun.tools.sjavac.Log;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,6 +15,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
+import jdk.jfr.internal.Logger;
 
 public class StepResponseCode {
 	private static final String BASE_URL = "http://ratesapi.io/";
