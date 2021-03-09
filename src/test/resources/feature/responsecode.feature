@@ -16,12 +16,12 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
+Feature: Retrieve the Response Code
 
-Feature: Multiplication
+  Scenario: Check the Response Code Received
+    Given API for foreign Exchange
+    When posted with correct information
+    Then validate the reponse received
 
-  Scenario: Multiply two numbers
-    Given a and b
-    When a and b is greater than zero
-    Then a multiplies b
-    
-  
+
+ 
