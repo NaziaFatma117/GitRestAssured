@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-09T18:44:40 IST" name="Default suite" finished-at="2021-03-09T18:44:48 IST" duration-ms="8061">
+  <suite started-at="2021-03-09T19:18:56 IST" name="Default suite" finished-at="2021-03-09T19:19:03 IST" duration-ms="6525">
     <groups>
     </groups>
-    <test started-at="2021-03-09T18:44:40 IST" name="Default test" finished-at="2021-03-09T18:44:48 IST" duration-ms="8061">
+    <test started-at="2021-03-09T19:18:56 IST" name="Default test" finished-at="2021-03-09T19:19:03 IST" duration-ms="6525">
       <class name="stepdefinition.StepRestAssured">
-        <test-method signature="f()[pri:0, instance:stepdefinition.StepRestAssured@62e7f11d]" started-at="2021-03-09T18:44:40 IST" name="f" finished-at="2021-03-09T18:44:48 IST" duration-ms="7931" status="PASS">
+        <test-method signature="f()[pri:0, instance:stepdefinition.StepRestAssured@62e7f11d]" started-at="2021-03-09T19:18:56 IST" name="f" finished-at="2021-03-09T19:19:03 IST" duration-ms="6399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->

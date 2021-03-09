@@ -16,6 +16,7 @@ public class StepRestAssured {
 	             get("https://ratesapi.io/documentation/").
 	             then().
 	             extract().response();
+	  System.out.println("Response Object: " +response);
 	  
 	  RestAssured.given()
 		.when()
