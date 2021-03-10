@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Date: 2010-01-12 was checked]]>
+    </line>
+    <line>
+      <![CDATA[Date: 2015-01-12 was checked]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-03-10T13:47:47 IST" name="Default suite" finished-at="2021-03-10T13:47:56 IST" duration-ms="8355">
+  <suite started-at="2021-03-10T14:27:31 IST" name="Default suite" finished-at="2021-03-10T14:27:38 IST" duration-ms="6246">
     <groups>
     </groups>
-    <test started-at="2021-03-10T13:47:47 IST" name="Default test" finished-at="2021-03-10T13:47:56 IST" duration-ms="8355">
-      <class name="stepdefinition.DataProviderTest">
-        <test-method signature="f(java.lang.String)[pri:0, instance:stepdefinition.DataProviderTest@3e6ef8ad]" started-at="2021-03-10T13:47:48 IST" name="f" data-provider="dp" finished-at="2021-03-10T13:47:55 IST" duration-ms="7581" status="PASS">
+    <test started-at="2021-03-10T14:27:31 IST" name="Default test" finished-at="2021-03-10T14:27:38 IST" duration-ms="6246">
+      <class name="stepdefinition.DataProviderTestngReports">
+        <test-method signature="f(java.lang.String)[pri:0, instance:stepdefinition.DataProviderTestngReports@3e6ef8ad]" started-at="2021-03-10T14:27:32 IST" name="f" data-provider="dp" finished-at="2021-03-10T14:27:37 IST" duration-ms="5688" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,9 +22,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Date: 2010-01-12 was checked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="f(java.lang.String)[pri:0, instance:stepdefinition.DataProviderTest@3e6ef8ad]" started-at="2021-03-10T13:47:55 IST" name="f" data-provider="dp" finished-at="2021-03-10T13:47:56 IST" duration-ms="644" status="PASS">
+        <test-method signature="f(java.lang.String)[pri:0, instance:stepdefinition.DataProviderTestngReports@3e6ef8ad]" started-at="2021-03-10T14:27:37 IST" name="f" data-provider="dp" finished-at="2021-03-10T14:27:38 IST" duration-ms="441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,9 +36,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Date: 2015-01-12 was checked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- stepdefinition.DataProviderTest -->
+      </class> <!-- stepdefinition.DataProviderTestngReports -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
