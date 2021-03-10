@@ -24,7 +24,7 @@ public class NegativeStepDefinition {
 		  RequestSpecification request = RestAssured.given();
 		  response = request.get("documentation/t");
 	  }
-
+	  @Test
 	  @When("correct information is posted")
 	  public void correct_information_is_posted() {
 	      // Write code here that turns the phrase above into concrete actions
@@ -32,7 +32,7 @@ public class NegativeStepDefinition {
 		  RequestSpecification request = RestAssured.given();
 		  
 	  }
-
+	  @Test
 	  @Then("Retrieve the response code received")
 	  public void retrieve_the_response_code_received() {
 	      // Write code here that turns the phrase above into concrete actions

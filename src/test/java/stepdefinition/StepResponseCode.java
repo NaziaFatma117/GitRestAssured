@@ -29,7 +29,7 @@ public class StepResponseCode {
 	  RequestSpecification request = RestAssured.given();
 	  response = request.get("documentation/t");
   }
-
+  @Test
   @When("posted with correct information")
   public void posted_with_correct_information() {
       // Write code here that turns the phrase above into concrete actions
@@ -37,7 +37,7 @@ public class StepResponseCode {
 	  RequestSpecification request = RestAssured.given();
 	  
   }
-
+  @Test
   @Then("validate the reponse received")
   public void validate_the_reponse_received() {
       // Write code here that turns the phrase above into concrete actions
