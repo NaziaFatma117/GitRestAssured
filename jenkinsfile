@@ -1,26 +1,21 @@
-pipeline
-{
-agent any
-{
-stages
-{
-stage('Compile Stage')
-{
-steps
-{
+pipeline {
+    agent any
 
-withMaven(maven : 'maven')
-
-{
-sh 'Maven Cleam compile'
-}
-
-}
-
-}
-
-}
-
-}
-
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
 }
