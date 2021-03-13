@@ -18,6 +18,7 @@ public class DataProviderTest {
 	  int statusCode = response.getStatusCode();
 	  Assert.assertEquals(statusCode,200);
 	  System.out.println(response);
+	  System.out.println(7.0/100);
   }
 
   @DataProvider
