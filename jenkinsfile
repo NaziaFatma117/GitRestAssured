@@ -1,13 +1,16 @@
 pipeline {
-    agent any
-
+    
+agent any
+    tools { 
+        maven 'maven' 
+        
+    }
     stages {
         stage('Build') {
             steps {
-            withMaven(maven: 'maven')
-            {
+            
                 echo 'Building..'
-            }
+            
             }
         }
         stage('Test') {
