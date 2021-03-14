@@ -10,8 +10,10 @@ agent any
             steps {
             
                 echo 'Building..'
-                javac NewTest.java
-                java NewTest
+                def fileList = "ls /path/to/dir".execute()
+def files= []
+fileList.text.eachLine {files.add(it)}
+return files
                
             
             }
