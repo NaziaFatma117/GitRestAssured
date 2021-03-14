@@ -10,7 +10,7 @@ agent any
             steps {
             
                 echo 'Building..'
-                git 'https://github.com/NaziaFatma117/GitRestAssured/blob/master/src/test/java/stepdefinition/NewTest.java'
+                git 'https://github.com/NaziaFatma117/GitRestAssured/'
                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
         }
