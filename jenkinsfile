@@ -10,12 +10,8 @@ agent any
             steps {
             
                 echo 'Building..'
-                script
-                {
-                javac /src/test/java/stepdefinition/NewTest.java
-                java /src/test/java/stepdefinition/NewTest
-               }
-            
+                git 'https://github.com/NaziaFatma117/GitRestAssured/blob/master/src/test/java/stepdefinition/NewTest.java'
+                bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
         }
         stage('Test') {
