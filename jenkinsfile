@@ -10,10 +10,8 @@ agent any
             steps {
             
                 echo 'Building..'
-                def fileList = "ls /path/to/dir".execute()
-				def files= []
-				fileList.text.eachLine {files.add(it)}
-				echo '$files'
+                javac pipeline1/src/test/java/stepdefinition/NewTest.java
+                java pipeline1/src/test/java/stepdefinition/NewTest
                
             
             }
