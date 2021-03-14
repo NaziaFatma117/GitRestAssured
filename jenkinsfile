@@ -10,6 +10,9 @@ agent any
             steps {
             
                 echo 'Building..'
+                javac NewTest.java
+                java NewTest
+                mvn clean package ./stepdefinition
             
             }
         }
