@@ -10,8 +10,8 @@ agent any
             steps {
             
                 echo 'Building..'
-                javac pipeline1/src/test/java/stepdefinition/NewTest.java
-                java pipeline1/src/test/java/stepdefinition/NewTest
+                javac /src/test/java/stepdefinition/NewTest.java
+                java /src/test/java/stepdefinition/NewTest
                
             
             }
