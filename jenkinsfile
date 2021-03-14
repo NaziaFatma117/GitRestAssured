@@ -11,9 +11,9 @@ agent any
             
                 echo 'Building..'
                 def fileList = "ls /path/to/dir".execute()
-def files= []
-fileList.text.eachLine {files.add(it)}
-return files
+				def files= []
+				fileList.text.eachLine {files.add(it)}
+				echo '$files'
                
             
             }
