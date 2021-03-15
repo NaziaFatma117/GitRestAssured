@@ -11,7 +11,7 @@ agent any
             
                 echo 'Building..'
                 git 'https://github.com/NaziaFatma117/GitRestAssured/'
-                bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                bat "mvn  clean package"
             }
         }
         stage('Test') {
