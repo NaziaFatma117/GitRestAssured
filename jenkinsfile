@@ -17,6 +17,8 @@ agent any
         stage('Test') {
             steps {
                 echo 'Testing..'
+                junit '**/target/surefire-reports/TEST-*.xml'
+               archiveArtifacts 'target/*.jar'
             }
         }
         stage('Deploy') {
